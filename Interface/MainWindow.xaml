@@ -1,0 +1,20 @@
+﻿<Window x:Class="_6968617465796f750d0a.Interface.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_6968617465796f750d0a.Interface"
+        mc:Ignorable="d"
+        Title="6968617465796f750d0a" WindowStyle="None" ResizeMode="NoResize" ShowInTaskbar="False" Topmost="True" WindowState="Normal" AllowsTransparency="True" Background="Transparent" Height="250" Width="500" Initialized="Window_Initialized" Closing="Window_Closing">
+    <Canvas>
+
+        <Border Background="Black" Height="250" Width="500" HorizontalAlignment="Left" VerticalAlignment="Center">
+            <Canvas>
+                <TextBox BorderThickness="0" IsReadOnly="True" Background="Transparent" Text="44696420796f75207468696e6b20746865726520776f756c6420626520612068696e7420686572653f204e6f6f6f2e2e2e20596f75206d616465206120626967206d697374616b652e2e2e204655434b212049204841544520594f5521" TextWrapping="Wrap" RenderTransformOrigin="0.5,0.5" HorizontalAlignment="Left" VerticalAlignment="Center" Width="480" Canvas.Top="10" Canvas.Left="10" Foreground="Red" FontSize="16">
+                </TextBox>
+                <Label Content="Maybe convert HEX to STRING? This is HINT...&#10;Not copyable?? It's big problem... BIG..&#10;I disabled your mouse and keyboard, don't forget you&#10;have your phone :)... Try to get rid of me, pathetic." FontFamily="Arial" Foreground="Red" FontSize="18" Canvas.Left="10" Canvas.Top="134" HorizontalAlignment="Center" VerticalAlignment="Top"></Label>
+            </Canvas>
+        </Border>
+
+    </Canvas>
+</Window>

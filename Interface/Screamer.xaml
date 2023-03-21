@@ -1,0 +1,12 @@
+﻿<Window x:Class="_6968617465796f750d0a.Interface.Screamer"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_6968617465796f750d0a.Interface"
+        mc:Ignorable="d"
+        Title="IHATEYOU" Height="450" Opacity="0.0" Width="800" ShowInTaskbar="False" WindowStartupLocation="CenterScreen" AllowsTransparency="True" Background="Black" WindowState="Maximized" WindowStyle="None" ResizeMode="NoResize">
+    <Grid>
+        <MediaElement x:Name="VideoPlayer" Visibility="Visible"></MediaElement>
+    </Grid>
+</Window>

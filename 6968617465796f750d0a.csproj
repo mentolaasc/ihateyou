@@ -1,0 +1,29 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <RootNamespace>_6968617465796f750d0a</RootNamespace>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+    <ApplicationManifest>Resources\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Resources\Media\sound1.wav" />
+    <None Remove="Resources\Media\video1.mp4" />
+    <None Remove="Resources\Theme\main.cur" />
+    <None Remove="Resources\Theme\wall.bmp" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Media\sound1.wav" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Resources\Media\video1.mp4" />
+    <Resource Include="Resources\Theme\main.cur" />
+    <Resource Include="Resources\Theme\wall.bmp" />
+  </ItemGroup>
+
+</Project>
